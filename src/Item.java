@@ -1,4 +1,4 @@
-public class Item{
+public class Item{  //this is the class file
 
     // Initialize the private variables of the class
     private String itemName;
