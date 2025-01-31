@@ -9,7 +9,6 @@ public class Main {
        //creating Item array for the setupStore method
        Item[] store = new Item[5];
 
-        ArrayList<String> gameList = new ArrayList<String>();
 
         //adding the games into the gameList
         //gameList.add(games[0]); //Mario Kart
@@ -36,6 +35,7 @@ public class Main {
 
     //Creating the createCart method
     public static void createCart ( ) {
+        ArrayList<Item> cart = new ArrayList<Item>();
 
     }
 
