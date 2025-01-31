@@ -33,10 +33,12 @@ public class Main {
         return store;
     }
 
-    //Creating the createCart method
+    //Creating the createCart method ... make sure to fix the title of the method
     public static void createCart ( ) {
         ArrayList<Item> cart = new ArrayList<Item>();
+        //cart.add(Item[]...)
 
+        return cart;
     }
 
     //Creating the printReceiptInOrder method
@@ -46,5 +48,13 @@ public class Main {
         System.out.println(" Item                    Price");
 
 
+    }
+
+    //Creating the emptyCartReserveOrder method
+    public static Item [] emptyCartReserveOrder () {
+        for (int i = 0; i <=4; i++) {
+            System.out.println(store[4]);
+            cart.remove(4);
+        }
     }
 }
